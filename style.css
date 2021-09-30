@@ -145,7 +145,7 @@ display: none;
             .perfils{
                 width: 150px;
                 height: 150px;
-                margin: 10px 10px;
+                margin: 20px 10px;
                 border-radius: 5px;
                 
             
@@ -194,7 +194,10 @@ display: none;
                 color: white;
                 border: none;
             }
-            
+            .nomes{
+                font-size: 20px;
+                margin-top: 3px;
+            }
       }
       
       @media (max-width:1131px){
