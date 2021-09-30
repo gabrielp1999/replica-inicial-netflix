@@ -1,0 +1,205 @@
+body{
+    padding: 0;
+    margin: 0;
+  }
+  
+  #container{
+      background-color: #141414;
+      height: 100vh;
+      width: 100%;
+  }
+  
+  #menu{
+      width: 100%;
+      height: 40px;
+      background-image: linear-gradient(to top, transparent, rgba(0,0,0,.9));
+  }
+  
+  #menu img{
+  height: 12px;
+  margin-top: 13px;
+  margin-left: 13px;
+  }
+  
+  #conteudo{
+      width: 300px;
+      height: 370px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 80px;
+      display: block;
+  }
+  
+  #publico{
+      color: white;
+      font-size: 30px;
+      font-family: Arial;
+      margin-top: 100px;
+  }
+  
+  #publico p{
+      margin-left:70px;
+  }
+  #publico-2{
+display: none;
+}
+
+  #perfil{
+      width: 300px;
+      height: 247px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      margin-top: -20px;
+  }
+  
+  .perfils{
+      width: 84px;
+      height: 110px;
+      margin: 11px 3px;
+      border-radius: 5px;
+  
+  }
+  
+  .perfils img{
+      width: 84px;
+      height: 84px;
+      border-radius: 5px;
+  
+  }
+  
+  .perfils a{
+      text-decoration: none;
+  }
+  
+   .nomes{
+      font-size: 14px;
+      margin-top:3px;
+      text-align: center;
+      color: #888;
+     
+  }
+  
+  #gerenciar{
+      width: 165px;
+      height: 28px;
+      border: 1px solid gray;
+      margin-left: auto;
+      margin-right: auto;
+      color: #808080;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      letter-spacing: 2px;
+      }
+      a{
+          text-decoration: none;
+      }
+
+
+      /*Responsivo*/
+
+      @media (min-width:600px){
+        #menu{
+            height:80px;
+        }
+
+        #menu img{
+            height: 27px;
+            margin-top: 22px;
+            margin-left: 4vw;
+            }
+
+            #conteudo{
+                width: 75vw;
+                height: 370px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 80px;
+                display: block;
+            }
+
+            #publico{
+                display: none;
+            }
+
+            #publico-2{
+                display: flex;
+                color: white;
+                font-size: 50px;
+                width: 400px;
+                font-family: Arial;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: -20px;
+            }
+            
+            #perfil{
+                width: 100%;
+                height: 200px;
+                display: flex;
+                margin-left: 0;
+            }
+
+            .perfils{
+                width: 150px;
+                height: 150px;
+                margin: 10px 10px;
+                border-radius: 5px;
+                
+            
+            }
+            
+            .perfils img{
+                width: 150px;
+                height: 150px;
+                border-radius: 5px;
+            
+            }
+
+            .perfils:hover{
+                border: 3px solid darkgrey ;
+            }
+
+            #gerenciar{
+                display: none;
+
+            }
+            #gerenciar-2{
+                width: 150px;
+                height: 40px;
+                margin-left: auto;
+                margin-right: auto;
+                color: #000;
+                font-size: 23px;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                letter-spacing: 2px;
+                margin-top: 5px;
+            }
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover{
+                color:white
+            }
+            #gerenciar-2:hover{
+                background: red;
+                color: white;
+                border: none;
+            }
+            
+      }
+      
+      @media (max-width:1131px){
+          #gerenciar-2{
+              display: none;
+          }
+      }
+  
