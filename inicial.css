@@ -1,0 +1,294 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+#section-1{
+    height: 200px;
+    background-image: url("./foto1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100vw;
+    height: 42px;
+    background-image: linear-gradient(to top, transparent, rgba(0,0,0,.8));
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+    width: 100px;
+    margin-left: 230px;
+    margin-top: -20px;
+}
+
+
+
+#menu li a img{
+    width: 30px;
+    margin: 0 7px;
+}
+
+.desktop {
+    display: none;
+}
+
+#netflixx{
+    height: 13px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#sino{
+    height: 20px;
+}
+
+#sino-super{
+    display: flex;
+    justify-content: right;
+}
+
+#round{
+    height: 55px;
+    margin-top: -23px;
+    margin-left: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+#perfil-nav img{
+    height: 30px;
+    border-radius: 5px;
+}
+
+#perfil-nav{
+margin-top: -15px;
+margin-left: 85vw;
+}
+
+#infantil{
+    margin-left: 60vw;
+    margin-top: -50px;
+    display: none;
+}
+#lupa-s{
+    margin-left: 50vw;
+    margin-top: -25px;
+    display:none;
+}
+
+#lupa{
+    height: 25px;
+}
+
+#descriçao{
+    margin-top: -5px;
+    margin-left: 5px;
+    font-size: 8px;
+    font-weight: bold;
+    height: 9vh;
+    width: 70vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botoes{
+    height: 40px;
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+
+}
+#assistir{
+    height: 30px;
+    width: 95px;
+    border-radius:5px;
+    border: none;
+    background-color: rgba(250, 250, 250, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#assistir img{
+    height: 13px;
+}
+
+
+#mais-informacoes{
+    height: 30px;
+    width: 195px;
+    margin-left: 10px;
+    border-radius:5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+#mais-informacoes span{
+    color:#fff;
+}
+
+#mais-informacoes img{
+    height: 13px;
+}
+
+#categoria{
+    font-weight: bold;
+    font-family: Arial, Helvetica;
+}
+#categoria-1 h2{
+    color: white;
+    margin: auto;
+ 
+}
+
+.lista-filmes{
+    margin: 0 20px;
+
+}
+
+.lista-filmes h2{
+    color: #fff;
+    font-size: 16px;
+}
+
+.cartoes{
+    width: 95%;
+    display: flex;
+    overflow-x:auto;
+}
+
+
+.cartoes a img{
+    width: 42vw;
+    margin: 0 5px;
+}
+
+@media screen and (min-width:768px) {
+    #section-1{
+        width: 100vw;
+        height: 300px;
+
+    }
+
+    #menu{
+        margin-left: 75vw;
+        margin-top: -15px;
+
+    }
+    .responsive img{
+        height: 30px;
+        margin: 10px;
+        width: 30px;
+    }
+
+    #botoes {
+        height: 40px;
+        width: 180px;
+        margin-top: 1.5vh;
+        margin-left: 20px;
+
+    }
+    span{
+        font-size: 12px;
+        margin-left: 3px;
+        line-height: 10px;
+    }
+
+    #descriçao {
+        margin-top: 0px;
+        margin-left: 28px;
+        font-size: 16px;
+        font-weight: bold;
+        height: 9vh;
+        width: 70vw;
+    }
+
+    #round {
+        height: 92px;
+        margin-top: -10px;
+        margin-left: 23px;
+    }
+
+   
+    .cartoes::-webkit-scrollbar{
+        display: none;
+    }
+
+    .cartoes a img{
+        width: 27vw;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    #section-1{
+        height: 400px;
+        width: 98vw;
+    }
+
+    #descriçao{
+        width: 500px;
+        margin:0;
+    }
+
+    #botoes{
+        margin-top:12vh;
+        width: 400px;
+    }
+    span{
+        font-size: 18px;
+    }
+
+    #botoes button{
+        height: 40px;
+        width: 170px;
+    }
+
+    #assistir-b{
+        margin-left: -40px;
+    }
+    
+    .cartoes a img {
+        width: 21vw;
+    }
+
+    .lista-filmes{
+        margin: 0 20px;
+    }
+}
+
+#corpo{
+    padding-bottom: 150px;
+}
+
+.desktop{
+    display: flex;
+}
+
+#menu li a img{
+    width: 40px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
