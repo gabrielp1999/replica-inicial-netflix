@@ -21,8 +21,12 @@ nav{
     list-style: none;
     display: flex;
     width: 100px;
-    margin-left: 230px;
+    margin-left: 210px;
     margin-top: -20px;
+}
+
+.desktop{
+    display: none;
 }
 
 
@@ -232,13 +236,18 @@ margin-left: 85vw;
     .cartoes a img{
         width: 27vw;
     }
+
+    
+.desktop{
+    display: none;
+}
 }
 
 @media screen and (min-width:1024px) {
 
     #section-1{
         height: 400px;
-        width: 98vw;
+        width: 100vw;
     }
 
     #descriçao{
@@ -277,12 +286,13 @@ margin-left: 85vw;
 }
 
 .desktop{
-    display: flex;
+    
 }
 
 #menu li a img{
-    width: 40px;
-    margin: 0 10px;
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
 }
 
 
